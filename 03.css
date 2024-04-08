@@ -1,0 +1,48 @@
+body {
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title {
+    font-size: 90px;    
+    text-align: center;
+    color: #fff;
+    background-color: #bbb;
+    padding: 0px 0;
+    margin: 60px 650px;
+}
+.name {
+    font-size: 50px;
+    text-align: right;
+    /* width: 1000px; */
+    margin: 0 400px;
+    color: #fff;
+}
+
+.contents {
+font-size: 30;
+line-height: 2;
+color: #fff;
+text-align: center;    
+}
+
+.con2 {
+    font-size: 30;
+    line-height: 2;
+    color: #bbb;
+    text-align: center;     
+}
+
+.contents p {
+    margin: 100px 0;
+    /* background-color: #bbb; */
+    padding: 15px;
+}
+
+.copyright {
+text-align: center;
+font-size: 20;    
+color: #fff;
+margin-bottom: 60px;
+}
