@@ -5,3 +5,12 @@ div {
 .title {
     color: orange;
 }
+
+.text {
+    color: rebeccapurple;
+    font-size: 26px;
+    font-weight: bold;
+}
+.text2 {
+    font-weight: bold;
+}
