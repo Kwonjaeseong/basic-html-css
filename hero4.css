@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu li a:hover{
+    color: #000;
+    font-weight: bold;
+}
+
+button {
+    width: 100px;
+    height: 46px;
+    border-radius: 46px;
+    background-color: #444;
+    border: 1px solid #444;
+    color: #fff;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+}
+
+.nav {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    margin-right: 50px;
+    gap: 50px;
+}
+
+.menu li a {
+    height: 72px;
+    padding: 0 25px;
+    display: block;
+    line-height: 72px;
+}
+
+.hero {
+    margin: 100px auto;
+}
+
+.hero .contents {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hero .contents .photo img {
+    width: 560px;
+    margin-right: 50px;
+}
+
+.texts h3 {
+    font-size: 28px;
+    color: #444;
+}
+
+.texts h2 {
+    font-size: 60px;
+    margin: 20px 0;
+    color: #444;
+}
+
+.texts p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #444;
+    line-height: 2;
+}
+
+.contents .btns {
+    display: flex;
+    gap: 26px;
+}
+
+.contents .btns button {
+    font-size: 16px;
+
+}
+
+.contents .btns button.outline {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #444;
+    font-size: 16px;
+}

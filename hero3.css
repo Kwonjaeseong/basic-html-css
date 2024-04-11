@@ -23,6 +23,17 @@ button {
     color: #fff;
     border-radius: 46px;
 }
+/* 버튼 하나만 다르게 바꿀때 바꿀 버튼의 클래스를 outline으로 넣어준다.  */
+button.outline {
+    background-color: transparent;
+    color: #444;
+}
+
+.hero .texts .btns {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 
 body {
     color: #666;
@@ -37,15 +48,76 @@ body {
 .nav {
     width: 1200px;
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
+    /* 각 메뉴를 센터정렬함. */
     align-items: center;
 }
 
 .logo {
     display: flex;
+    margin-right: auto;
+    gap: 10px;
 }
 
 .menu {
     display: flex;
+    gap: 50px;
+    margin-right: 50px;
+}
+
+.menu li a {
+    /* background-color: orange; */
+    height: 72px;
+    padding: 0 25px;
+    display: block;
+    line-height: 72px;
+}
+
+
+/* a:hover <<마우스에 손이 갔을때 변하는 것을 의미함 */
+.menu li a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.hero_wrap{
+    margin: 100px 0;
+}
+
+.hero {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero .texts {
+    margin-bottom: 64px;
+}
+
+.hero .texts h3 {
+    font-size: 28px;
+}
+
+.hero .texts h2 {
+    font-size: 60px;
+}
+
+.hero .texts p {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
+.banner_wrap p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banners {
+    display: flex;
+    gap: 64px;
+    /* background-color: red; */
+    /* 좌측 정렬되버린 배너들을 중앙으로 정렬시켜 줌 */
+    justify-content: center;
 }
