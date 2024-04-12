@@ -67,7 +67,7 @@ body {
 .contents .photo {
     width: 550px;
     height: 620px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .container .photo img {
@@ -75,6 +75,8 @@ body {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 img {
@@ -82,3 +84,39 @@ img {
 
 }
 
+.contents {
+    display: flex;
+}
+
+.contents .texts {
+    width: 660px;
+    background-color: #eee;
+    padding: 90px;
+    /* 텍스트를 중앙에 오게하기 위해서는 패딩이 몇인지 정확히 모르므로 display,flex-drection,justify를 이용해서 센터에 오게 해준다. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.contents .texts h3 {
+    font-size: 28px;
+    margin-bottom: 18px;
+}
+
+.contents .texts p.words {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contents .texts p.username {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.contents .texts p.job {
+    font-size: 20px;
+}

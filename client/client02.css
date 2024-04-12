@@ -4,135 +4,22 @@
     box-sizing: border-box;
 }
 
-.header {
-    width: 900px;
-    margin: 150px auto;
+ul {
+    list-style: none;
+}
+
+body {
+    color: #666;
+    line-height: 1.8;
+}
+
+.container {
+    width: 1220px;
+    margin: 120px auto;
     /* background-color: red; */
-    text-align: center;
 }
 
-.header h1 {
-    color: #495fa8;
-    margin-bottom: 30px;
-}
-
-.header p {
-    color: #ccc;
-}
-
-.contents {
-    display: flex;
-    width: 2000 px;
-    margin: 30px auto;
-}
-
-.contents .box1 {
-    border: 1px solid #ccc;
-    /* background-color: red; */
-    border-radius: 3%;
-    margin-right: 50px;
-    margin-left: 100px;
-    width: 600px;
-    height: 600px;
-    text-align: center;
-}
-
-.contents .box2 {
-    border: 1px solid #ccc;
-    /* background-color: red; */
-    border-radius: 3%;
-    margin-right: 50px;
-    margin-left: 0px;
-    width: 600px;
-    height: 600px;
-    text-align: center;
-}   
-
-.contents .box3 {
-    border: 1px solid #ccc;
-    /* background-color: red; */
-    border-radius: 3%;
-    margin-right: 50px;
-    margin-left: 0px;
-    width: 600px;
-    height: 600px;
-    text-align: center;
-}   
-
-
-.contents .box1 .photo img {
-    width: 250px;
-    height: 250px;
-    margin: 20px 0;
-    
-}
-
-.contents .box2 .photo img {
-    width: 250px;
-    height: 250px;
-    margin: 20px 0;
-}
-
-.contents .box3 .photo img {
-    width: 250px;
-    height: 250px; 
-    margin: 20px 0;
-}
-
-
-.contents .box1 h2 {
-    color: #495fa8;
-    margin: 50px 0 10px 30px;
-    text-align: left;
-}
-
-.contents .box1 p {
-    color: #ccc;
-    text-align: left;
-    margin: 0 30px 10px 30px;
-    line-height: 1.6;
-}
-
-.contents .box1 h3 {
-    color: #495fa8;
-    text-align: left;
-    margin: 50px 0 10px 30px;
-}
-
-.contents .box2 h2 {
-    color: #495fa8;
-    margin: 50px 0 10px 30px;
-    text-align: left;
-}
-
-.contents .box2 p {
-    color: #ccc;
-    text-align: left;
-    margin: 0 30px 10px 30px;
-    line-height: 1.6;
-}
-
-.contents .box2 h3 {
-    color: #495fa8;
-    text-align: left;
-    margin: 50px 0 10px 30px;
-}
-
-.contents .box3 h2 {
-    color: #495fa8;
-    margin: 50px 0 10px 30px;
-    text-align: left;
-}
-
-.contents .box3 p {
-    color: #ccc;
-    text-align: left;
-    margin: 0 30px 10px 30px;
-    line-height: 1.6;
-}
-
-.contents .box3 h3 {
-    color: #495fa8;
-    text-align: left;
-    margin: 50px 0 10px 30px;
+.title_wrap {
+ width: 40px;
+ background-color: red;   
 }
