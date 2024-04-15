@@ -53,6 +53,7 @@ body {
 }
 
 .list li .photo img {
+    /* 내가 정해놓은 photo size대로 적용 시킨 후 이미지 깨짐없이 맞춰준다*/
     width: 100%;
     height: 100%;
     object-fit: cover;
