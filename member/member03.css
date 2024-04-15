@@ -107,6 +107,7 @@ body {
     height: 36px;
     font-size: 20px;
     background-color: #eee;
+    /* 아이콘 백그라운드 내 폰트의 위치를 결정하는 값이므로 SOCIAL이랑 혼동하지 말자. */
     align-items: center;
     justify-content: center;
     display: flex;
