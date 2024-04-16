@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.wrap h1 {
+    margin: 30px auto;
+}
+
+table {
+    /* th,td 칸 간의 빈 간격을 없애줌 */
+border-collapse: collapse;
+width: 400px;
+}
+
+
+.cal {
+    border-top: 2.5px solid #777;
+}
+
+
+.cal th, .cal td {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+.cal th {
+    font-size: 14px;
+}
+
+.cal td {
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.cal td:hover {
+    background-color: #666;
+}
+
+
+.cal th:first-child, .cal td:first-child {
+    color: red;
+}
+
+.cal th:last-child, .cal td:last-child {
+    color: blue;
+}
+
+.cal .holy {
+    color: red;
+}
+
+.cal .holy:hover {
+    background-color: #666;
+    font-weight: bold;
+}
