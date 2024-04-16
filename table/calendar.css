@@ -11,12 +11,14 @@
 
 .wrap h1 {
     margin: 30px auto;
+    text-align: center;
 }
 
 table {
     /* th,td 칸 간의 빈 간격을 없애줌 */
 border-collapse: collapse;
 width: 400px;
+margin: 0 auto;
 }
 
 
