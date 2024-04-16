@@ -76,6 +76,11 @@ margin-right: 5px;
     margin-bottom: 7px;
 }
 
+.list li .detail .movie {
+    font-size: 13px;
+    font-weight: bold;
+}
+
 
 .list li .running_time {
     display: flex;
