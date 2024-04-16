@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Table 02</title>
+        <link rel="stylesheet" href="table02.css">
+    </head>
+    <body>
+        <div class="wrap">
+            <h1>테이블 4</h1>
+            <table class="tbl_04">
+                <tr>
+                    <td>과목</td>
+                    <td>연락처</td>
+                    <td>담당자</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <!-- rowspan"2"를 넣으면 아래로2칸을 쓴다는 말임 -->
+                    <td rowspan="2">123-456-789</td>
+                    <td rowspan="2">홍길동</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                </tr>
+                <tr>
+                    <td>JAVA SCRIPT</td>
+                    <td>123-456-789</td>
+                    <td>로드리</td>
+                </tr>
+                <tr>
+                    <td>JQUERY</td>
+                    <td>123-456-789</td>
+                    <td>핫도그</td>
+                </tr>
+                <tr>
+                    <td>FIGMA</td>
+                    <td>123-456-789</td>
+                    <td>이영표</td>
+                </tr>
+                <tr>
+                    <td>REACT</td>
+                    <!-- 옆으로 2칸을 합칠 때는 colsapn"2" -->
+                    <td colspan="2">미확정</td>
+                   </tr>
+                
+                
+                <h1>테이블 5</h1>
+                   <table class="tbl_05">
+                    <!-- colgroup은 각각 세로줄의 넓이를 지정할 수 있다. -->
+                    <colgroup>
+                        <col width="10%"> 
+                        <col width="25%">
+                        <col widh="">
+                        <col width="20%">
+                        <col width="10%">
+                    </colgroup>
+                    <tr>
+                        <th>과목</th>
+                        <th>기간</th>
+                        <th>교재</th>
+                        <th>연락처</th>
+                        <th>담당자</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>2050.05.20 ~ 2058.10.10</td>
+                        <td>HTML완벽정리</td>
+                        <td>123-457-789</td>
+                        <td>홍길동</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>2050.05.20 ~ 2058.10.10</td>
+                        <td>HTML완벽정리</td>
+                        <td>123-457-789</td>
+                        <td>홍길동</td>
+                    </tr>
+                    <tr>
+                        <td>JAVA SCRIPT</td>
+                        <td>2050.05.20 ~ 2058.10.10</td>
+                        <td>한권으로 끝내는 프론트밴드 개발 자바스크립트</td>
+                        <td>123-457-789</td>
+                        <td>홍길동</td>
+                    </tr>
+                   </table>
+            </table>
+        </div>
+    </body>
+</html>

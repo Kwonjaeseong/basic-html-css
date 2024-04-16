@@ -14,7 +14,6 @@ table {
 
 .wrap {
     width: 800px;
-    margin: 0 auto;
     margin: 50px auto;
 }
 
@@ -37,7 +36,9 @@ table {
 }
 
 /* 짝수 줄만 배경색을 칠한다. */
-.tbl_02 tr:nth-child(even) {
+.tbl_02 tr
+
+:nth-child(even) {
     background-color: #ddd;
 }
 
