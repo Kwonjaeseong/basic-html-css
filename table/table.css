@@ -54,12 +54,12 @@ table {
 .tbl_03 tr:nth-child(even) {
     background-color: #ddd;
 }
-
+/* 모든 첫번째칸에 줄을 없앤다 */
 .tbl_03 tr td:first-child,
 .tbl_03 tr th:first-child {
     border-left: none;
 }
-
+/* 모든 마지막칸에 줄을 없앤다 */
 .tbl_03 tr td:last-child,
 .tbl_03 tr th:last-child {
     border-right: none;
